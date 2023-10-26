@@ -3,16 +3,7 @@ import pandas as pd
 import mysql.connector
 import matplotlib.pyplot as plt
 
-# Configuração do banco de dados MySQL
-def conectar_mysql():
-    cursor_mysql = mysql.connector.connect(
-        host='10.61.176.114',
-        user='pwd',
-        password='vUyEth8y',
-        database='auto_oss',
-        charset='utf8'
-    )
-    return cursor_mysql
+
 
 
 
